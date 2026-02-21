@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_seo_metas",
+  "info": {
+    "displayName": "Meta",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "required": false
+    },
+    "metaDecription": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
