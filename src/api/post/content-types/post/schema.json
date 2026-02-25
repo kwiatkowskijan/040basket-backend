@@ -38,7 +38,8 @@
     "SEO": {
       "type": "component",
       "component": "seo.meta",
-      "repeatable": true
+      "repeatable": true,
+      "max": 1
     }
   }
 }
