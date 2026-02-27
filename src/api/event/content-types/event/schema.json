@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "startDate": {
+      "type": "datetime"
+    },
+    "endDate": {
+      "type": "datetime"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "tournament",
+        "match"
+      ]
+    },
+    "details": {
+      "type": "dynamiczone",
+      "components": [
+        "events.match-details",
+        "events.tournament-details"
+      ]
+    }
+  }
+}

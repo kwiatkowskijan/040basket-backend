@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_events_tournament_details",
+  "info": {
+    "displayName": "TournamentDetails"
+  },
+  "options": {},
+  "attributes": {
+    "registrationLink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

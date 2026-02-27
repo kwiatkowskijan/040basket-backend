@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_events_match_details",
+  "info": {
+    "displayName": "MatchDetails"
+  },
+  "options": {},
+  "attributes": {
+    "opponent": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
